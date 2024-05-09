@@ -1,0 +1,32 @@
+.navbar {
+    background-color:transparent;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none; 
+    margin: 0 5px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #afac4c;
+  }
+  
+  .profile-link {
+    /* border: 2px solid;  */
+    padding: 5px 10px;
+    border-radius: 5px; 
+  }
+  
+  .profile-link:hover {
+    background-color: white; 
+    color: #e7e5e5; 
+  }
+  

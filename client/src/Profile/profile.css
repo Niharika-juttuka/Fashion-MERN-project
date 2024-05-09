@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* body{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: black; */
+    /* background-image:url("../assets/Brown\ White\ Elegant\ Fashion\ Company\ Profile\ Presentation\ \(2\).png") ;
+    background-size: cover;
+    background-position:center ; */
+
+/* } */ 
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255,255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow:0 0 10px rgba(255, 255,255, .2);
+    color:transparent;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+    /* display: flex; */
+    justify-content: center;
+    align-items: center; 
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px ;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background:transparent ;
+    border:2px solid rgba(255, 255,255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+.profile-card {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.profile-field {
+    margin-bottom: 20px;
+    color: transparent;
+}
+
+.profile-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in the input's total width and height */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}

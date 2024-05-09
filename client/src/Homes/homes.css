@@ -1,0 +1,12 @@
+/* homes.css */
+.hello {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-image: url('../assets/Brown.png'); /* Adjust path to your image */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background */
+    display: flex;
+    align-items: center; /* Align content vertically */
+    justify-content: center; /* Align content horizontally */
+}

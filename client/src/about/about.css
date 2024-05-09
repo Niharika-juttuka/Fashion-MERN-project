@@ -1,0 +1,23 @@
+/* About.css */
+
+.about {
+    background: transparent; /* White background for clarity */
+    padding: 20px; /* Padding for some space inside the container */
+    margin: 20px auto; /* Centering the box and providing some outside space */
+    max-width: 800px; /* Maximum width of the content box */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center align text */
+  }
+  
+  .about h1 {
+    color: #333; /* Dark grey color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .about p {
+    color: #353535; /* Lighter text color for the paragraph */
+    font-size: 18px; /* Slightly larger font size for readability */
+    line-height: 1.6; /* More readable line spacing */
+  }
+  

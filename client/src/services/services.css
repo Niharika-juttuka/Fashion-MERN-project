@@ -1,0 +1,37 @@
+.services-container {
+    background: transparent; /* White background for better readability */
+    padding: 20px; /* Padding around the content */
+    margin: 20px auto; /* Center the container with margin auto and give some space around */
+    max-width: 800px; /* Limiting the width to enhance readability */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center the text */
+}
+
+.services-container h1 {
+    color: #333; /* Dark grey color for headings */
+    margin-bottom: 20px; /* Space below the heading */
+    font-weight: bold;
+}
+
+.services-container p {
+    color: #282727; /* Medium grey for paragraph text */
+    margin-bottom: 20px; /* Space below the paragraph */
+    font-weight: bold;
+}
+
+.services-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    text-align: left; /* Align text to the left */
+    font-weight: bold;
+}
+
+ .services-list li { 
+    background: transparent;/* Light grey background for each list item*/
+    margin-bottom: 10px; /*Space between items */
+    padding: 10px; /*Padding inside each item */
+    border-radius: 5px; /*Rounded corners for list items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /*Very soft shadow for each item*/
+    font-size: 16px; /*Slightly larger font size*/
+}
